@@ -1,0 +1,25 @@
+:root{
+  --dur-instant:90ms; /* @kind other */    /* press feedback */
+  --dur-fast:160ms; /* @kind other */      /* hovers, pill fills */
+  --dur-base:240ms; /* @kind other */      /* pill slide, reveals */
+  --dur-slow:420ms; /* @kind other */      /* card expand to sheet */
+  --dur-roll:900ms; /* @kind other */      /* one cycle of the sushi loader */
+
+  --ease-out:cubic-bezier(.22,.76,.28,1); /* @kind other */      /* default: quick out, soft land */
+  --ease-in-out:cubic-bezier(.5,0,.3,1); /* @kind other */
+  --ease-pill:cubic-bezier(.34,1.24,.42,1); /* @kind other */    /* one soft overshoot, never a bounce */
+
+  --press-scale:.965; /* @kind other */
+  --hover-lift:-2px; /* @kind other */
+}
+@media (prefers-reduced-motion:reduce){
+  :root{
+    --dur-instant:1ms; /* @kind other */
+    --dur-fast:1ms;    /* @kind other */
+    --dur-base:1ms;    /* @kind other */
+    --dur-slow:1ms;    /* @kind other */
+    --dur-roll:1ms;    /* @kind other */
+    --press-scale:1;   /* @kind other */
+    --hover-lift:0px;  /* @kind spacing */
+  }
+}

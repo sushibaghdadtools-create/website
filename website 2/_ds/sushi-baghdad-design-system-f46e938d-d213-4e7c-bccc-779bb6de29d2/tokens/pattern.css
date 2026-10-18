@@ -1,0 +1,13 @@
+:root{
+  /* Seigaiha-style wave, the brand's one graphic element. Extracted from the
+     brand sheet: assets/patterns/pattern-wave.png. Keep it faint and behind things. */
+  --pattern-wave:url("../assets/patterns/pattern-wave.png"); /* @kind other */
+  --pattern-chopstick:url("../assets/patterns/pattern-chopstick.png"); /* @kind other */
+  --pattern-paper:url("../assets/patterns/pattern-paper.png"); /* @kind other */
+  --pattern-opacity-bg:.05; /* @kind other */      /* 3–8% for large background applications */
+  --pattern-opacity-accent:.10; /* @kind other */  /* small decorative corners only */
+  --pattern-tile:220px;
+}
+/* Usage: a positioned pseudo-element, never a background on a text container. */
+.sb-wave-bg{position:relative;isolation:isolate}
+.sb-wave-bg::before{content:"";position:absolute;inset:0;z-index:-1;background-image:var(--pattern-wave);background-size:var(--pattern-tile) auto;background-repeat:repeat;opacity:var(--pattern-opacity-bg);pointer-events:none}

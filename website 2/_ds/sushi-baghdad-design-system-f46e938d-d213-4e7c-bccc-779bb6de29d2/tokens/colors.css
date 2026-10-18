@@ -1,0 +1,58 @@
+:root{
+  /* ---- Base palette (brand sheet v1.0) ---- */
+  --sb-red:#E10606;            /* Primary Red — brand, highlights, CTA */
+  --sb-red-deep:#A10F0F;        /* Deep Red — headers, emphasis */
+  --sb-white:#FFFFFF;           /* Backgrounds, space */
+  --sb-black:#111111;           /* Text, contrast */
+  --sb-avocado:#7A9E3A;         /* Avocado Green — success, icons, gamification */
+  --sb-grey:#F3F4F6;            /* UI backgrounds, dividers */
+
+  /* ---- Extended neutrals derived from the sheet's panel surfaces ---- */
+  --sb-cream:#F7F4F0;           /* warm off-white editorial ground */
+  --sb-grey-200:#E5E7EB;
+  --sb-grey-400:#9CA3AF;
+  --sb-grey-600:#5B6068;
+  --sb-ink-70:#3A3D42;
+
+  /* ---- Tints (wash grounds, never for text) ---- */
+  --sb-red-050:#FDECEC;
+  --sb-red-100:#FAD5D5;
+  --sb-avocado-050:#F1F5E7;
+  --sb-avocado-100:#DDE7C6;
+  --sb-avocado-deep:#5E7C2A;    /* text-safe avocado on light grounds */
+
+  /* ---- Semantic aliases ---- */
+  --text-strong:var(--sb-black);
+  --text-body:var(--sb-ink-70);
+  --text-muted:var(--sb-grey-600);
+  --text-onred:var(--sb-white);
+  --text-emphasis:var(--sb-red-deep);
+  --text-link:var(--sb-red);
+  --text-link-hover:var(--sb-red-deep);
+
+  --surface-page:var(--sb-white);
+  --surface-page-warm:var(--sb-cream);
+  --surface-sunken:var(--sb-grey);
+  --surface-card:var(--sb-white);
+  --surface-wash-red:var(--sb-red-050);
+  --surface-wash-green:var(--sb-avocado-050);
+  --surface-invert:var(--sb-black);
+
+  --action-primary:var(--sb-red);
+  --action-primary-hover:#C90505;
+  --action-primary-press:var(--sb-red-deep);
+  --action-secondary:var(--sb-avocado);
+  --action-secondary-hover:#6C8E31;
+  --action-secondary-press:var(--sb-avocado-deep);
+
+  --border-hairline:rgba(17,17,17,.10);
+  --border-strong:rgba(17,17,17,.22);
+  --border-onred:rgba(255,255,255,.34);
+  --border-glass:rgba(255,255,255,.55);
+
+  --state-success:var(--sb-avocado);
+  --state-danger:var(--sb-red);
+  --state-locked:var(--sb-grey-600);
+
+  --focus-ring:var(--sb-black);
+}

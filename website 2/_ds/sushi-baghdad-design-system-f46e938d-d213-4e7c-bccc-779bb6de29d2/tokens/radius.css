@@ -1,0 +1,9 @@
+:root{
+  --r-xs:6px;
+  --r-sm:10px;
+  --r-md:14px;      /* dish cards, inputs */
+  --r-lg:20px;      /* content modules, sheets */
+  --r-xl:28px;      /* product sheets, hero panels */
+  --r-pill:999px;   /* buttons, category pills, nav container */
+  --r-circle:50%;   /* mascot, icon chips */
+}

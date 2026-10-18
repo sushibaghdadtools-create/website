@@ -1,0 +1,13 @@
+:root{
+  /* Frosted glass system. ~70% opacity fills, tasteful blur, thin light border. */
+  --glass-fill:rgba(255,255,255,.70);
+  --glass-fill-strong:rgba(255,255,255,.82);
+  --glass-fill-warm:rgba(247,244,240,.72);
+  --glass-fill-red:rgba(225,6,6,.72);
+  --glass-fill-dark:rgba(17,17,17,.62);
+  --glass-blur:blur(18px) saturate(140%); /* @kind other */
+  --glass-blur-light:blur(10px) saturate(120%); /* @kind other */
+  --glass-border:1px solid var(--border-glass);
+  --glass-border-dark:1px solid rgba(255,255,255,.16); /* @kind other */
+  --glass-shadow:var(--shadow-nav);
+}

@@ -1,0 +1,17 @@
+:root{
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px;
+  --sp-6:24px; --sp-8:32px; --sp-10:40px; --sp-12:48px; --sp-16:64px; --sp-20:80px;
+
+  /* semantic */
+  --gutter-mobile:16px;
+  --gutter-desktop:40px;
+  --section-y-mobile:48px;
+  --section-y-desktop:96px;
+  --stack-tight:8px;
+  --stack:16px;
+  --stack-loose:24px;
+  --rail-gap:12px;          /* horizontal swipe rails */
+  --touch-min:44px;         /* minimum tap target */
+  --navbar-inset:16px;      /* floating nav distance from screen edge */
+  --content-max:1120px;
+}
